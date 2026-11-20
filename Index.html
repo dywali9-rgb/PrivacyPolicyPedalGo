@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — PedalGo</title>
+  <meta name="description" content="Privacy Policy for PedalGo (com.aistudio.pedalgo.yrmwfg), an intra-city bicycle ride-sharing Android application." />
+  <style>
+    :root {
+      --emerald: #00c853;
+      --emerald-deep: #008b3a;
+      --emerald-soft: #e7faee;
+      --charcoal: #111315;
+      --slate: #4a5560;
+      --border: #dfe5ea;
+      --bg: #f7f9fa;
+      --card: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--charcoal);
+      line-height: 1.68;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #111315 0%, #1c2429 100%);
+      color: #ffffff;
+      padding: 40px 20px 36px;
+      border-bottom: 4px solid var(--emerald);
+    }
+
+    .header-inner {
+      max-width: 880px;
+      margin: 0 auto;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: rgba(0, 200, 83, 0.16);
+      color: #69f0ae;
+      border: 1px solid rgba(0, 200, 83, 0.45);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+      line-height: 1.2;
+      font-weight: 800;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: #cfd8dc;
+      font-size: 0.98rem;
+    }
+
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 24px;
+      margin-top: 18px;
+      font-size: 0.88rem;
+      color: #b0bec5;
+    }
+
+    .meta-bar strong {
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 28px auto 56px;
+      padding: 0 16px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 26px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 10px rgba(17, 19, 21, 0.04);
+    }
+
+    .toc {
+      background: var(--emerald-soft);
+      border: 1px solid #b9eccb;
+      border-radius: 14px;
+      padding: 20px 22px;
+      margin-bottom: 24px;
+    }
+
+    .toc-title {
+      margin: 0 0 10px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--emerald-deep);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .toc ul {
+      margin: 0;
+      padding-left: 18px;
+      columns: 2;
+      column-gap: 28px;
+    }
+
+    .toc li {
+      margin-bottom: 6px;
+      font-size: 0.94rem;
+    }
+
+    .toc a {
+      color: var(--charcoal);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .toc a:hover {
+      color: var(--emerald-deep);
+      text-decoration: underline;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--charcoal);
+      border-left: 4px solid var(--emerald);
+      padding-left: 12px;
+    }
+
+    h3 {
+      margin: 18px 0 8px;
+      font-size: 1.04rem;
+      font-weight: 700;
+      color: var(--charcoal);
+    }
+
+    p {
+      margin: 0 0 12px;
+      color: #263238;
+    }
+
+    ul {
+      margin: 0 0 12px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 7px;
+      color: #263238;
+    }
+
+    a {
+      color: var(--emerald-deep);
+    }
+
+    .highlight-box {
+      background: #f4f7f9;
+      border-left: 4px solid var(--charcoal);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 14px 0;
+      font-size: 0.95rem;
+    }
+
+    .delete-box {
+      background: var(--emerald-soft);
+      border: 1px solid #a5e6bc;
+      border-radius: 12px;
+      padding: 18px;
+      margin-top: 12px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin: 12px 0 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.93rem;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 11px 12px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #f3f6f8;
+      font-weight: 700;
+      color: var(--charcoal);
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88em;
+      background: #eef2f5;
+      padding: 2px 6px;
+      border-radius: 5px;
+      color: #1b2429;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--slate);
+      font-size: 0.88rem;
+      padding: 12px 16px 32px;
+    }
+
+    @media (max-width: 640px) {
+      .toc ul {
+        columns: 1;
+      }
+      .card {
+        padding: 20px 18px;
+      }
+      h1 {
+        font-size: 1.65rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <span class="badge">Google Play Compliance &bull; Privacy Policy</span>
+      <h1>PedalGo Privacy Policy</h1>
+      <p class="subtitle">Zero-commission intra-city bicycle ride-sharing application for Bangladesh.</p>
+      <div class="meta-bar">
+        <span><strong>App Name:</strong> PedalGo</span>
+        <span><strong>Package ID:</strong> <code>com.aistudio.pedalgo.yrmwfg</code></span>
+        <span><strong>Effective Date:</strong> November 20, 2026</span>
+        <span><strong>Contact:</strong> <a href="mailto:dywali9@gmail.com" style="color:#69f0ae;">dywali9@gmail.com</a></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="toc" aria-label="Table of Contents">
+      <p class="toc-title">Contents</p>
+      <ul>
+        <li><a href="#overview">1. Overview &amp; Scope</a></li>
+        <li><a href="#data-collected">2. Information We Collect</a></li>
+        <li><a href="#permissions">3. Android App Permissions</a></li>
+        <li><a href="#how-we-use">4. How We Use Information</a></li>
+        <li><a href="#data-sharing">5. Data Sharing &amp; Third Parties</a></li>
+        <li><a href="#security-retention">6. Data Security &amp; Retention</a></li>
+        <li><a href="#deletion">7. Your Rights &amp; Data Deletion</a></li>
+        <li><a href="#children">8. Children&rsquo;s Privacy</a></li>
+        <li><a href="#changes">9. Changes &amp; Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <section id="overview" class="card">
+      <h2>1. Overview &amp; Scope</h2>
+      <p>
+        This Privacy Policy explains how <strong>PedalGo</strong> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;the app&rdquo;),
+        identified by Android package <code>com.aistudio.pedalgo.yrmwfg</code>, collects, uses, stores, and shares information
+        when you use the PedalGo mobile application as a passenger or as an independent cyclist (rider).
+      </p>
+      <p>
+        By signing in and using PedalGo, you agree to the data practices described in this Privacy Policy. If you do not
+        agree with this policy, please discontinue using the app and request deletion of your account as described in
+        <a href="#deletion">Section 7</a>.
+      </p>
+      <div class="highlight-box">
+        <strong>Zero Ads &amp; Zero Data Selling:</strong> PedalGo does <strong>not</strong> sell or rent your personal
+        information, does <strong>not</strong> display third-party behavioral advertising, and does <strong>not</strong>
+        include third-party ad tracking SDKs.
+      </div>
+    </section>
+
+    <section id="data-collected" class="card">
+      <h2>2. Information We Collect</h2>
+      <p>
+        Consistent with Google Play&rsquo;s User Data and Data Safety requirements, PedalGo collects only the information
+        necessary to provide safe, real-time intra-city bicycle ride-sharing:
+      </p>
+
+      <h3>A. Account &amp; Profile Information</h3>
+      <ul>
+        <li><strong>Google Sign-In Credentials:</strong> When you sign in using Google Identity / Android Credential Manager and Firebase Authentication, we receive your Firebase User ID (<code>uid</code>), Google display name, email address, and authentication token.</li>
+        <li><strong>Profile Details:</strong> Full name, optional phone number (used to coordinate pickups), user role (<code>passenger</code> or <code>rider</code>), community star rating, and trip count.</li>
+      </ul>
+
+      <h3>B. Photos (User-Selected Only)</h3>
+      <ul>
+        <li><strong>Profile &amp; Rider Verification Photos:</strong> Passengers may optionally upload a profile face photo. Independent cyclists (riders) provide a clear face photo and a photo with their bicycle during rider setup so passengers can identify them at pickup.</li>
+        <li><strong>Zero-Permission Photo Picker:</strong> Photos are selected solely at your action using the system Android Photo Picker (<code>PickVisualMedia</code>). PedalGo does <strong>not</strong> request broad device storage or media-library permissions.</li>
+      </ul>
+
+      <h3>C. Bicycle Details (Riders Only)</h3>
+      <ul>
+        <li>Bicycle category (<code>CycleX</code> manual or <code>CycleEco</code> electric), bicycle model/name, color, and optional bicycle notes displayed to passengers during ride matching.</li>
+      </ul>
+
+      <h3>D. Foreground Location Information</h3>
+      <ul>
+        <li><strong>Approximate &amp; Precise Location:</strong> Collected <strong>only while the app is open and in active foreground use</strong> to detect your city in Bangladesh, center the map, place pickup and dropoff pins, calculate route distance, ETA, and fare estimates, and share live arrival progress between matched passengers and riders.</li>
+        <li><strong>No Background Location:</strong> PedalGo does <strong>not</strong> request or collect background location (<code>ACCESS_BACKGROUND_LOCATION</code>) when the app is closed.</li>
+      </ul>
+
+      <h3>E. Ride, Saved Places &amp; Rating Data</h3>
+      <ul>
+        <li><strong>Saved Places:</strong> Labels (such as Home or Work), street addresses, city, and coordinates you save for quick trip planning.</li>
+        <li><strong>Trip Records:</strong> Pickup and dropoff addresses/coordinates, intermediate stops, distance, duration, fare bids and counter-offers, ride preferences (shortcut lanes, quiet ride, fast pedal, scheduled time), trip verification OTP, optional &ldquo;booked for another person&rdquo; contact name and phone number, cancellation reasons, ratings, compliments, reviews, and issue reports.</li>
+      </ul>
+
+      <h3>F. In-App Messages &amp; Optional Voice Calls</h3>
+      <ul>
+        <li><strong>Trip Chat Messages:</strong> Text messages exchanged between a passenger and their assigned rider to coordinate pickup or dropoff.</li>
+        <li><strong>In-App Voice Call Audio:</strong> Microphone audio is captured <strong>only when you actively start or answer a carrier-free in-app voice call</strong> during a ride. Audio is compressed (G.711 &mu;-law) and streamed in short real-time packets solely to transmit voice between the two ride participants.</li>
+      </ul>
+
+      <h3>G. Local Preferences, Cache &amp; App Integrity</h3>
+      <ul>
+        <li><strong>On-Device Cache &amp; Settings:</strong> App preferences (language, theme mode, sound effects) are stored locally using Jetpack DataStore. An offline cache of your profile, recent rides, and saved places is stored locally via Room database and cleared when you sign out.</li>
+        <li><strong>App Security Signals:</strong> Firebase App Check (using Google reCAPTCHA Enterprise in release builds) verifies app authenticity to protect backend resources from automated abuse.</li>
+      </ul>
+    </section>
+
+    <section id="permissions" class="card">
+      <h2>3. Android App Permissions</h2>
+      <p>PedalGo requests only the minimum Android permissions needed for its core features:</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Permission</th>
+              <th>Purpose in PedalGo</th>
+              <th>Required?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>ACCESS_FINE_LOCATION</code><br /><code>ACCESS_COARSE_LOCATION</code></td>
+              <td>Detect city in Bangladesh, show nearby riders, set pickup/dropoff pins, calculate bicycle route/fare, and share live ride location while using the app.</td>
+              <td>Runtime prompt (user may allow or deny; manual pin selection remains available)</td>
+            </tr>
+            <tr>
+              <td><code>RECORD_AUDIO</code><br /><code>MODIFY_AUDIO_SETTINGS</code></td>
+              <td>Enable optional carrier-free in-app voice calls and speakerphone toggling between matched rider and passenger during an active trip.</td>
+              <td>Runtime prompt only when using voice call; chat works without it</td>
+            </tr>
+            <tr>
+              <td><code>POST_NOTIFICATIONS</code></td>
+              <td>Deliver ride acceptance alerts, arrival updates, trip chat messages, and incoming in-app call notifications.</td>
+              <td>Runtime prompt on Android 13+</td>
+            </tr>
+            <tr>
+              <td><code>INTERNET</code><br /><code>ACCESS_NETWORK_STATE</code></td>
+              <td>Connect to Firebase authentication/database, load OpenFreeMap vector map tiles, and request OpenStreetMap/OSRM road routing and reverse geocoding.</td>
+              <td>Install-time</td>
+            </tr>
+            <tr>
+              <td><code>VIBRATE</code></td>
+              <td>Provide haptic feedback for ride alerts and incoming calls.</td>
+              <td>Install-time</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="how-we-use" class="card">
+      <h2>4. How We Use Information</h2>
+      <ul>
+        <li><strong>Authenticate &amp; Manage Accounts:</strong> Verify identity via Google Sign-In and maintain passenger/rider profiles.</li>
+        <li><strong>Provide Ride-Sharing Services:</strong> Connect passengers with nearby cyclists, compute distance-based fare estimates, process fare bids and counter-offers, verify trip start via 4-digit OTP, and track trip status.</li>
+        <li><strong>Enable Communication:</strong> Deliver trip chat messages and optional in-app voice calls between matched ride participants without requiring SIM carrier balance.</li>
+        <li><strong>Safety &amp; Community Trust:</strong> Support two-way 1&ndash;5 star ratings, rider photo verification at pickup, and trip issue reporting.</li>
+        <li><strong>App Integrity &amp; Reliability:</strong> Prevent unauthorized access, spam, or abuse via Firebase App Check and server-side security rules.</li>
+      </ul>
+    </section>
+
+    <section id="data-sharing" class="card">
+      <h2>5. Data Sharing &amp; Third-Party Services</h2>
+      <p>We do not sell your data. Information is shared only in the following limited ways:</p>
+      <ul>
+        <li>
+          <strong>Between Matched Ride Participants:</strong> When you request or accept a ride, relevant details (name, phone number if added, rating, bicycle category/model/color, profile photo, pickup/dropoff locations, and live coordinates during the trip) are visible to your matched rider or passenger to fulfill the trip.
+        </li>
+        <li>
+          <strong>Google Firebase &amp; Google Identity Services:</strong> Used for authentication (Firebase Auth / Credential Manager), real-time database storage (Cloud Firestore), and abuse protection (Firebase App Check). See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google&rsquo;s Privacy Policy</a>.
+        </li>
+        <li>
+          <strong>OpenFreeMap &amp; MapLibre:</strong> Used to render vector city maps (<code>tiles.openfreemap.org</code>). Only standard map tile network requests (IP address and tile viewport coordinates) are sent.
+        </li>
+        <li>
+          <strong>OpenStreetMap Nominatim &amp; OSRM Routing:</strong> Used to convert map pin coordinates into street/neighborhood names and compute bicycle road routes (<code>nominatim.openstreetmap.org</code>, <code>router.project-osrm.org</code>, <code>routing.openstreetmap.de</code>). Account identifiers such as your name, email, or phone number are <strong>not</strong> sent to these services. See the <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener noreferrer">OpenStreetMap Foundation Privacy Policy</a>.
+        </li>
+        <li>
+          <strong>Legal &amp; Safety Obligations:</strong> We may disclose information if required by applicable law, valid legal process, or to protect the safety of users or the public.
+        </li>
+      </ul>
+    </section>
+
+    <section id="security-retention" class="card">
+      <h2>6. Data Security &amp; Retention</h2>
+      <ul>
+        <li><strong>Encryption in Transit:</strong> All communication between the PedalGo app and Firebase, map tile servers, and routing endpoints uses HTTPS/TLS encryption.</li>
+        <li><strong>Strict Access Controls:</strong> Cloud Firestore enforces owner-isolated security rules. Your profile and saved places are readable and writable only by your authenticated account, and trip chat messages and voice call sessions are accessible strictly to the passenger and assigned rider of that ride.</li>
+        <li><strong>Retention:</strong> Profile, saved places, and ride history are retained while your account remains active so you can view past trips and maintain community ratings. Local Room cache records are cleared when you sign out.</li>
+      </ul>
+    </section>
+
+    <section id="deletion" class="card">
+      <h2>7. Your Rights &amp; Account / Data Deletion</h2>
+      <p>You control your information and permissions at all times:</p>
+      <ul>
+        <li><strong>Edit or Remove In-App Data:</strong> Update your name, phone number, profile photo, or bicycle details in the <strong>Account</strong> tab, and delete individual saved places at any time.</li>
+        <li><strong>Manage Permissions:</strong> Revoke Location, Microphone, or Notification permissions anytime in your Android device&rsquo;s <em>Settings &gt; Apps &gt; PedalGo &gt; Permissions</em>.</li>
+        <li><strong>Sign Out:</strong> Signing out clears locally cached profile, ride, and saved-place records from the device.</li>
+      </ul>
+
+      <div class="delete-box">
+        <h3 style="margin-top:0;">How to Request Complete Account &amp; Data Deletion</h3>
+        <p>
+          In accordance with Google Play&rsquo;s Account Deletion Policy, you may request permanent deletion of your PedalGo
+          account and associated personal data at any time without needing to reinstall the app:
+        </p>
+        <ol style="margin: 8px 0 10px; padding-left: 20px;">
+          <li>Send an email to <a href="mailto:dywali9@gmail.com?subject=PedalGo%20Account%20Deletion%20Request"><strong>dywali9@gmail.com</strong></a> from the Google email address associated with your PedalGo account.</li>
+          <li>Use the subject line: <strong>PedalGo Account Deletion Request</strong>.</li>
+          <li>Include your display name or User ID (if known) to help us verify ownership.</li>
+        </ol>
+        <p style="margin-bottom:0;">
+          Upon verification, we will delete your Firebase Authentication account, user profile, uploaded profile/bicycle photos,
+          and saved places within <strong>30 days</strong>. Completed ride records needed for safety, dispute resolution, or
+          fraud prevention may be anonymized (with personal identifiers removed) or deleted where permitted by law.
+        </p>
+      </div>
+    </section>
+
+    <section id="children" class="card">
+      <h2>8. Children&rsquo;s Privacy</h2>
+      <p>
+        PedalGo is not directed to children under the age of 13 (or the minimum age of digital consent i
